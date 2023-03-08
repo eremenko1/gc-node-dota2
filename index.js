@@ -1,15 +1,3 @@
-/**
- * Dota 2 module
- * @module Dota2
- */
-
-/**
- * A Long class for representing a 64 bit two's-complement integer value 
- * derived from the Closure Library for stand-alone use and extended with unsigned support.
- * @external Long
- * @see {@link https://www.npmjs.com/package/long|long} npm package
- */
-
 const steam = require("steam");
 const { createLogger, format, transports } = require('winston');
 
